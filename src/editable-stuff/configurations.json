@@ -1,0 +1,42 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "devIntro": "Mallikarjuna Sharma",
+  "devDesc": "| Engineer | Programmer | Web Developer | Mobile App Developer ",
+  "gradientColors": "#EE7752, #E73C7E, #23A6D5, #23D5AB",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/mallikarjuna-sharma",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-facebook",
+      "url": "https://www.facebook.com/mallikarjunasharma96",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fa-instagram",
+      "url": "https://www.instagram.com/rmalliksharma96/",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/mallikarjuna-sharma-475663142/",
+      "style": "socialicons"
+    }
+  ],
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "rmalliksharma96",
+  "instaQuerry": "/?__a=1",
+  "showInstaProfilePic": true,
+  "aboutDev": "Specialized front-end technologies using node.js, react.js. with experience on full stack web development and android SDK.",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "mallikarjuna-sharma",
+  "gitHubQuerry": "/repos?sort=updated&direction=desc",
+  "projectsLength": 10
+}
