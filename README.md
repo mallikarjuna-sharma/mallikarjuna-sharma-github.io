@@ -2,7 +2,7 @@
 
 [![Site preview](/public/social-image.png)](https://mallikarjuna-sharma.github.io)
 
-It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: [mallikarjuna-sharma.github.io/](https://mallikarjuna-sharma.github.io/home).
+It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: [mallikarjuna-sharma.github.io/](https://mallikarjuna-sharma.github.io/).
 
 ## Table of Contents
 
