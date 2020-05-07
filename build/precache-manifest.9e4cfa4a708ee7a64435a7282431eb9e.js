@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d8f3e6d90e99c2f1a1f6840d5c1cd99",
+    "revision": "cde35d68263fc4d508ea58b3a2ef6f4b",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "4194544a02bc39ed3032",
+    "revision": "401996cc555d43f76e20",
     "url": "/static/css/main.ae312cd8.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.42045e17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4194544a02bc39ed3032",
-    "url": "/static/js/main.54c8a851.chunk.js"
+    "revision": "401996cc555d43f76e20",
+    "url": "/static/js/main.869dbbef.chunk.js"
   },
   {
     "revision": "c88671eb88bf6c28dee9",
     "url": "/static/js/runtime-main.6a060e8a.js"
   },
   {
-    "revision": "1c601f0229b5ecde2c535e3b654663ca",
-    "url": "/static/media/Mallikarjuna_sharma_resume.1c601f02.pdf"
+    "revision": "e6abbe09428ac982e4d3adb37d746689",
+    "url": "/static/media/Mallikarjuna_sharma_resume.e6abbe09.pdf"
   },
   {
     "revision": "2364ae1a414c4e11b7451c9e0e17c2fd",
