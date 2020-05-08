@@ -36,7 +36,7 @@ const WorkCard = (value) => {
                             className="card-title col-lg-8 col-sm-12"
                             href={href}
                             style={{ fontSize: 18 }}
-                            target=" _blank"
+                            target="_blank"
                         >
                             {name}
                         </a>

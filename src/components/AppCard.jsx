@@ -23,7 +23,7 @@ const AppCard = (value) => {
                     <img src={img} style={{ height: 60, width: 60 }} className="mr-3" alt="..." />
                     <a
                         href={href}
-                        target=" _blank"
+                        target="_blank"
                     >
                         <button className="btn btn-outline-dark btn-icon-text">
 

@@ -7,9 +7,11 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import ProjectCard from "./ProjectCard";
 import AppCard from "./AppCard";
 import WorkCard from "./WorkCard";
-import fea from '../assets/fea1.png'
-import ios from '../assets/ios.png'
-import tictoe from '../assets/tictoe.png'
+import fea from '../assets/fea1.png';
+import ios from '../assets/ios.png';
+import tictoe from '../assets/tictoe.png';
+import MyProducts from "./MyProducts";
+
 
 const androidappdetails = () => {
   let arr = [{
@@ -52,13 +54,32 @@ const workdetails = () => {
   return arr;
 }
 
+const myProducts = () => {
+  let arr = [{
+    duration: "2020/Apr",
+    name: "Covid-19",
+    web_href: 'https://elastic-hugle-e08f29.netlify.app/',
+    mobile_href: "https://drive.google.com/file/d/1ffwQq42aO7M8nnv-u-kOyDiIrC2t7Uv0/view?usp=sharing",
+    Highlights: "Developed admin and associate/student web application " +
+      "In which admin gives questions for targeted associates and these questions are in turn answered by those associates." +
+      "handled image/video/hotspot question types,complex logic for fetching questions,leaderboard data with various filters and more complex features"
+  }, {
+    
+    duration: "2020/May",
+    name: "Contacts-CRM",
+    web_href: 'https://mallik-crm-dashboard.netlify.app/',
+    mobile_href:'https://drive.google.com/file/d/1F_QMsTiKeOv-GS0zaWZwgGOv5igdwI9Q/view',
+    Highlights: "Developed,Maintained,Deployed various native android application"
+  }];
+
+  return arr;
+}
+
 const Project = () => {
-  const prevScrollY = useRef(0);
   const [heading] = useState("Recent Projects");
   const [projectsArray, setProjectsArray] = useState([]);
   const [projectsLength] = useState(Configs.projectsLength);
   const [shalomProjects, setshalomProjects] = useState(false);
-  const [goingUp, setGoingUp] = useState(false);
   const [shalomProjectsY, setshalomProjectsY] = useState(0);
 
   const handleRequest = useCallback(
@@ -90,40 +111,32 @@ const Project = () => {
 
     if (shalomProjects && shalomProjects.length > 0) {
       setshalomProjectsY(window.scrollY)
-      console.log(window.scrollY, "currentScrollY");
     }
   }, [shalomProjects]);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
 
-  //     window.history.pushState(null, null, "/");
 
-  //     const currentScrollY = window.scrollY;
-
-  //     if (prevScrollY.current < currentScrollY && goingUp) {
-  //       setGoingUp(false);
-  //     }
-  //     if (prevScrollY.current > currentScrollY && !goingUp) {
-  //       setGoingUp(true);
-  //     }
-
-  //     prevScrollY.current = currentScrollY;
-  //     // console.log(goingUp, currentScrollY);
-
-  //     if (shalomProjectsY - 500 >= currentScrollY )
-  //       if (document.getElementById('shalom'))
-  //         setshalomProjects(false);
-  //   };
-  //   window.addEventListener("scroll", handleScroll, { passive: true });
-
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, [goingUp]);
-
+  
   return (
     <div id="projects" className="jumbotron jumbotron-fluid bg-transparent m-0">
       <div className="container container-fluid p-5">
         <a href='malik' />
+        <div>
+          <h1 className="display-4 pb-5">My Products</h1>
+          <div className="row">
+            {myProducts().map((project, index) => (
+              <MyProducts
+                key={index} 
+                id={"collapse" + index} 
+                web_href={project.web_href} 
+                mobile_href={project.mobile_href}
+                name={project.name}
+                duration={project.duration} 
+                Highlights={project.Highlights} />
+            ))}
+          </div>
+        </div>
+
         <div>
           <h1 className="display-4 pb-5">Work Experience</h1>
           <div className="row">

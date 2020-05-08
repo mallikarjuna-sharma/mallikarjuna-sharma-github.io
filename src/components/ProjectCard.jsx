@@ -58,7 +58,7 @@ const ProjectCard = ({ value }) => {
           </a>
           <a
             href={svn_url}
-            target=" _blank"
+            target="_blank"
             className="btn btn-outline-secondary"
           >
             <i className="fab fa-github" /> Repo
