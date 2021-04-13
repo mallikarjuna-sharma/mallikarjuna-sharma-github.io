@@ -1,7 +1,8 @@
-import React, { useState } from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+
+import React, { useState } from "react";
 
 import Iframe from "react-iframe";
 
@@ -19,9 +20,11 @@ const MyProducts = (value) => {
     }
   };
 
+
+
   return (
-    <div className="col-md-6">
-      <div className="card shadow-lg p-3 mb-5 bg-white rounded">
+    <div className="col-md-6 draggable" draggable="true" >
+      <div className="card shadow-lg p-3 mb-5 bg-white rounded" >
         <div className="card-body">
           <div className="row">
             <a

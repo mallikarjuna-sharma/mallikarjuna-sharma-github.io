@@ -1,9 +1,11 @@
-import React , { useState } from "react";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import mHealth from '../assets/mhealth.png'
+
+import React , { useState } from "react";
+
 import Rotary from '../assets/rotary.png'
+import mHealth from '../assets/mhealth.png'
 
 const shalomappdetails = () => {
     let arr = [{
@@ -27,9 +29,9 @@ const WorkCard = (value) => {
     const [openHide,setOpenHide] = useState(false);
 
     return (
-        <div className="col-md-6">
+        <div className="col-md-6 draggable" draggable="true" >
             <div className="card shadow-lg p-3 mb-5 bg-white rounded">
-                <div className="card-body">
+                <div className="card-body" style={{padding:"2%"}}>
 
                     <div className="row">
                         <a
@@ -46,7 +48,8 @@ const WorkCard = (value) => {
                             fontSize: "14px",
                             color: "#999",
                             lineHeight: "18px",
-                            float: "right"
+                            float: "right",
+                            padding: 0
                         }}> {duration}
                         </p>
 
@@ -71,7 +74,7 @@ const WorkCard = (value) => {
                         <div id={id} className="collapse" data-parent="#accordion">
                             <hr />
                             <div className="card-body">
-                                {Highlights}
+                                {Highlights?.split ('\n').map ((item, i) => <p key={i}>{item}</p>)}
                             </div>
 
                             {(id === 'collapse1') &&
