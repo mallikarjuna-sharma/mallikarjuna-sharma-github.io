@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1d5940e.chunk.css",
+    "main.js": "/static/js/main.31906a17.chunk.js",
+    "main.js.map": "/static/js/main.31906a17.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a060e8a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a060e8a.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.47aa233d.chunk.js": "/static/js/2.47aa233d.chunk.js",
+    "static/js/2.47aa233d.chunk.js.map": "/static/js/2.47aa233d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7b236ab01a3a1bfa508e401b24211fec.js": "/precache-manifest.7b236ab01a3a1bfa508e401b24211fec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.e1d5940e.chunk.css.map": "/static/css/main.e1d5940e.chunk.css.map",
+    "static/js/2.47aa233d.chunk.js.LICENSE.txt": "/static/js/2.47aa233d.chunk.js.LICENSE.txt",
+    "static/media/Mallikarjuna_Sharma.pdf": "/static/media/Mallikarjuna_Sharma.6dfaff0d.pdf",
+    "static/media/fea1.png": "/static/media/fea1.2364ae1a.png",
+    "static/media/ios.png": "/static/media/ios.e4372950.png",
+    "static/media/mhealth.png": "/static/media/mhealth.d005e82d.png",
+    "static/media/rotary.png": "/static/media/rotary.fba49fb4.png",
+    "static/media/tictoe.png": "/static/media/tictoe.086cba9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a060e8a.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.47aa233d.chunk.js",
+    "static/css/main.e1d5940e.chunk.css",
+    "static/js/main.31906a17.chunk.js"
+  ]
+}
